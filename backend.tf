@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "getting-started-terraform-cloud"
+    organization = "maluti"
 
     workspaces {
       name = "diamonddogs-app-useast1-dev"

@@ -14,6 +14,11 @@ variable "environment" {
   default     = "development"
 }
 
+variable "billable" {
+  type        = string
+  description = "(Optional) Application billing account."
+}
+
 variable "region" {
   type        = string
   description = "(Optional) The region where the resources are created. Defaults to us-east-1."
